@@ -1,4 +1,6 @@
+
 #!/usr/bin/bash
+set -euo pipefail
 ALTURA=$1
 PESO=$2
 IMC=$(( ($PESO * 10000) / ($ALTURA * $ALTURA) ))

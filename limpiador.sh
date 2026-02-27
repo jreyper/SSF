@@ -29,6 +29,7 @@ for archivo in "/home/oem/SSF"/*; do
 done
 find "/home/oem/SSF"  -type f -size 0 -exec mv {} VACIOS/ \;
 ((ContVACIOS++))
+;;
 echo "Archivos movidos:"
 echo "Imágenes: "$ContIMGS
 echo "Documentos: "$ContDOCS
